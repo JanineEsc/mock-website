@@ -9,7 +9,7 @@ export const Main = () => {
       <div className={styles.container}>
         {/* Each product should be its own card directly in the container */}
         <div className={styles.card}>
-        <Link href="/productOne"> 
+        <Link href="/pages/products/productOneDetail"> 
             <div>
               <img src="https://plus.unsplash.com/premium_photo-1675186049366-64a655f8f537?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2xvdGhlc3xlbnwwfHwwfHx8MA%3D%3D" alt="t-shirt" />
               <h2>Red cocktail Dress</h2>
