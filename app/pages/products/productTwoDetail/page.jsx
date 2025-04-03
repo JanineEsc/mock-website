@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
-import styles from '../../../styles/productOneDetail.module.css';
+import styles from '../../../styles/productTwoDetail.module.css';
 import { Footer } from '@/app/components/Footer';
 import { Navbar } from '@/app/components/Navbar';
 
@@ -16,7 +16,7 @@ const productTwoDetail = () => {
     <div>
       <Navbar />
       <div className={styles.productPage}>
-        <div className={styles.productContainer}>
+        <div className={styles.productTwoContainer}>
           <div className={styles.imageSection}>
             <div className={styles.mainImage}>
               <img 
@@ -24,14 +24,14 @@ const productTwoDetail = () => {
                 alt="Red cocktail Dress" 
               />
             </div>
+
           </div>
-          
           <div className={styles.productInfo}>
             <h1> Black Maxi Dress</h1>
-            <p className={styles.price}>799 SEK</p>
+            <p className={styles.price}> 799SEK</p>
             
             <div className={styles.description}>
-              <p>This stunning red cocktail dress is perfect for special occasions and evening events. Made with high-quality fabric that provides both comfort and elegant drape.</p>
+              <p>This stunning black maxi dress is perfect for special occasions and evening events. Made with high-quality fabric that provides both comfort and elegant drape.</p>
               <p>The dress features a classic silhouette that flatters all body types.</p>
               
               <ul>
@@ -41,6 +41,7 @@ const productTwoDetail = () => {
                 <li>Hand washable</li>
               </ul>
             </div>
+          
             
             <div className={styles.sizeSelector}>
               <h3>Select Size</h3>
