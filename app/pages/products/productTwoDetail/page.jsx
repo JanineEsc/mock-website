@@ -9,7 +9,7 @@ import { Navbar } from '@/app/components/Navbar';
 
 
 
-const ProductOne = () => {
+const productTwoDetail = () => {
   const [selectedSize, setSelectedSize] = useState('M');
   
   return (
@@ -20,15 +20,15 @@ const ProductOne = () => {
           <div className={styles.imageSection}>
             <div className={styles.mainImage}>
               <img 
-                src="https://plus.unsplash.com/premium_photo-1675186049366-64a655f8f537?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2xvdGhlc3xlbnwwfHwwfHx8MA%3D%3D" 
+                src="https://plus.unsplash.com/premium_photo-1673964714709-05e0c1a3a745?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGRyZXNzfGVufDB8fDB8fHww"  
                 alt="Red cocktail Dress" 
               />
             </div>
           </div>
           
           <div className={styles.productInfo}>
-            <h1>Red Cocktail Dress</h1>
-            <p className={styles.price}>500 SEK</p>
+            <h1> Black Maxi Dress</h1>
+            <p className={styles.price}>799 SEK</p>
             
             <div className={styles.description}>
               <p>This stunning red cocktail dress is perfect for special occasions and evening events. Made with high-quality fabric that provides both comfort and elegant drape.</p>
@@ -122,4 +122,4 @@ const ProductOne = () => {
   )
 }
 
-export default ProductOne;
+export default productTwoDetail;
