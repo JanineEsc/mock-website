@@ -33,7 +33,7 @@ export const Main = () => {
             <div>
               <img src="https://plus.unsplash.com/premium_photo-1702226631942-921d35d4183a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODF8fGJsYWNrJTIwaGVlbHN8ZW58MHx8MHx8fDA%3D" alt="t-shirt" />
               <h2>Red High heels </h2>
-              <p>Price: <strong>379 SEK</strong></p>
+              <p>Price: <strong>899SEK</strong></p>
             </div>
           </Link>
         </div>
