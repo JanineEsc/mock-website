@@ -28,7 +28,7 @@ const ProductOne = () => {
           
           <div className={styles.productInfo}>
             <h1>Red Cocktail Dress</h1>
-            <p className={styles.price}> 500 SEK</p>
+            <p className={styles.price}> 100 SEK</p>
             
             <div className={styles.description}>
               <p>This stunning red cocktail dress is perfect for special occasions and evening events. Made with high-quality fabric that provides both comfort and elegant drape.</p>
