@@ -28,7 +28,7 @@ const productTwoDetail = () => {
           </div>
           <div className={styles.productInfo}>
             <h1> Black Maxi Dress</h1>
-            <p className={styles.price}> 600 SEK</p>
+            <p className={styles.price}> 500 SEK</p>
             
             <div className={styles.description}>
               <p>This stunning black maxi dress is perfect for special occasions and evening events. Made with high-quality fabric that provides both comfort and elegant drape.</p>
